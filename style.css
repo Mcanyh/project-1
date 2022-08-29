@@ -1,0 +1,101 @@
+html,
+body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    background-color: rgb(243, 228, 208);
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.section-left {
+    float: left;
+}
+
+.section-left>img {
+    height: 600px;
+}
+
+.section-right {
+    height: 600px;
+    width: 400px;
+    background-color: white;
+    float: left;
+
+}
+
+.section-right p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.info {
+    text-align: left;
+    font-size: 23px;
+    color: rgb(117, 110, 110);
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-top: -15px;
+
+
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    padding-left: 20px;
+    letter-spacing: 5px;
+    margin: 30px;
+}
+
+h1 {
+    font-size: 55px;
+    text-align: left;
+    padding-left: 35px;
+    line-height: 1em;
+    margin-top: -10px
+}
+
+.price {
+    padding: 20px;
+    margin: 20px;
+    font-size: 40px;
+    color: rgb(75, 143, 105);
+    font-weight: bold;
+    margin-top: -10px;
+
+}
+
+.sale {
+    color: grey;
+    padding-left: 200px;
+    margin-top: -72px;
+    text-decoration: line-through;
+}
+
+
+.button {
+    text-align: center;
+    margin-bottom: 30px;
+   
+
+
+
+
+}
+
+.section-right button {
+    border-radius: 10px;
+    padding: 18px 100px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(75, 143, 105);
+    border: none;
+
+
+}
